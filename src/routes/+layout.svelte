@@ -1,7 +1,6 @@
 <script>
     import "../app.css";
     import Header from "./Header.svelte";
-    import Footer from "./Footer.svelte";
 
     let bodyStyle = "bg-gray-900 text-white p-4";
     let menuToggled = false;
@@ -16,5 +15,3 @@
 <body class={bodyStyle}>
     <slot />
 </body>
-
-<!-- <Footer isMenuOpen={menuToggled} /> -->

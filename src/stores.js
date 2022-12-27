@@ -16,7 +16,7 @@ export const WorkStore = writable([
     },
     {
         id: 2,
-        title: "Java Developer",
+        title: "Full Stack Developer",
         company: "Experis",
         from: "March 2020",
         to: "December 2021",
@@ -47,8 +47,28 @@ export const ProjectStore = writable([
         title: "On The Spot!",
         description: "A third person video game based on puzzle solving wearing the faces of a funny dice.",
         techs: ["Unreal Engine 5", "Adobe Illustrator", "Blender", "C++"],
-        cover: "",
+        cover: "src/routes/projects/img/onthespot.png",
         github: "https://github.com/StampedeStudios/OnTheSpot",
         website: "https://surveiior.itch.io/on-the-spot",
+        page: "/projects/onthespot",
+    },
+    {
+        id: 2,
+        title: "Winforce",
+        description: "A React application that allows a set of worksites to be managed and monitored.",
+        techs: ["Spring Boot", "Java", "React", "Javascript", "MySQL"],
+        cover: "src/routes/projects/img/winforce.png",
+        website: "https://simone-lungarella.github.io/winforce",
+        page: "/projects/winforce",
+    },
+    {
+        id: 3,
+        title: "Product Tracker",
+        description: "Application that follows a user and helps to describe the product track in various phases allowing to download a printable version of all the documentation.",
+        techs: ["Spring Boot", "Java", "React", "Javascript"],
+        cover: "src/routes/projects/img/product-tracker.png",
+        github: "https://github.com/simone-lungarella/product-tracker",
+        website: "https://simone-lungarella.github.io/product-tracker",
+        page: "/projects/product-tracker",
     }
 ])

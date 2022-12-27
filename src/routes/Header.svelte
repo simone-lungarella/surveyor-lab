@@ -40,12 +40,6 @@
                         <a href="/projects" class="text-white hover:text-amber-300">Projects</a>
                     </div>
                 </li>
-                <li>
-                    <div class="item">
-                        <p class="text-amber-300">04.</p>
-                        <a href="/contact" class="text-white hover:text-amber-300">Contact</a>
-                    </div>
-                </li>
             </ul>
         </nav>
         <div class="md:hidden absolute">
@@ -81,12 +75,6 @@
                     <div class="item">
                         <p class="text-amber-300">03.</p>
                         <a href="/projects" class="text-white hover:text-amber-300" on:click={handleMobileMenuClose}>Projects</a>
-                    </div>
-                </li>
-                <li>
-                    <div class="item">
-                        <p class="text-amber-300">04.</p>
-                        <a href="/contact" class="text-white hover:text-amber-300" on:click={handleMobileMenuClose}>Contact</a>
                     </div>
                 </li>
             </ul>

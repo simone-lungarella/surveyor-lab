@@ -1,10 +1,11 @@
 <script>
+    import Footer from "../Footer.svelte";
     import Profile from "./img/profile.png";
 </script>
 
-<div class="grid md:grid-cols-8 lg:grid-cols-9 gap-4 -mt-8 md:mt-20">
+<div class="grid grid-cols-7 md:grid-cols-8 lg:grid-cols-10 gap-4 -mt-8 md:mt-20">
     <div class="md:col-span-1" />
-    <div class="prose md:col-span-7 lg:col-span-8">
+    <div class="prose col-span-7 lg:col-span-8">
         <div class="flex gap-6 items-center">
             <h2 class="text-white">
                 <span class="text-amber-300 font-mono">01. </span>About Me
@@ -14,7 +15,9 @@
     </div>
     <div class="md:col-span-1" />
 
-    <div class="text-column font-mono prose md:col-span-7 lg:col-span-4">
+    <div class="lg:col-span-1" />
+
+    <div class="text-column font-mono prose col-span-7 lg:col-span-4">
         <p class="text-gray-200">
             My name is Simone, a 26-year-old resident of Rome. I pride myself on
             maintaining a positive outlook and strive to do so in all aspects of
@@ -28,9 +31,7 @@
             while also having a good time.
         </p>
 
-        <h3 class="text-gray-200">
-            My favourite technologies are: 
-        </h3>
+        <h3 class="text-gray-200">My favourite technologies are:</h3>
         <ul class="text-gray-200">
             <li>Java & SpringBoot</li>
             <li>SvelteJS</li>
@@ -38,7 +39,7 @@
             <li>Unreal Engine</li>
         </ul>
     </div>
-    <div class="md:col-span-7 lg:col-span-4">
+    <div class="col-span-7 lg:col-span-4 mt-10 lg:mt-0">
         <div class="grid place-content-center">
             <img
                 src={Profile}
@@ -46,5 +47,16 @@
                 class="bg-center p-4 w-96 hover:scale-110 transition duration-500 ease-in-out hover:ring-2 ring-amber-300"
             />
         </div>
+    </div>
+    <div class="lg:col-span-1" />
+
+</div>
+
+<div class="mt-10 grid grid-cols-7 place-content-center w-full">
+    <div class="col-span-1" />
+    <div class="h-0.5 bg-gray-700 mb-5 shadow-lg col-span-5" />
+    <div class="col-span-1" />
+    <div class="col-span-7">
+        <Footer />
     </div>
 </div>
