@@ -1,0 +1,20 @@
+<script>
+    import "../app.css";
+    import Header from "./Header.svelte";
+    import Footer from "./Footer.svelte";
+
+    let bodyStyle = "bg-gray-900 text-white p-4";
+    let menuToggled = false;
+    const handleMenuToggle = (/** @type {{ detail: any; }} */ event) => {
+        event.detail ? bodyStyle += " blur-sm" : bodyStyle = bodyStyle.replace(" blur-sm", "");
+        menuToggled = event.detail;
+    };
+
+</script>
+
+<Header on:menu-open={handleMenuToggle}/>
+<body class={bodyStyle}>
+    <slot />
+</body>
+
+<!-- <Footer isMenuOpen={menuToggled} /> -->
