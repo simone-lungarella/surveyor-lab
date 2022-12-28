@@ -4,14 +4,14 @@
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
-		"build": "svelte-kit build",
+		"build": "vite build",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
-		"deploy": "npx gh-pages -d dist"
+		"deploy": "npx gh-pages -d .svelte-kit"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-static": "^1.0.0-next.50",
+		"@sveltejs/adapter-auto": "^1.0.0",
 		"@sveltejs/kit": "^1.0.0",
 		"@tailwindcss/typography": "^0.5.8",
 		"autoprefixer": "^10.4.13",
