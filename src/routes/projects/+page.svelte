@@ -1,5 +1,10 @@
 <script>
+    import { onMount } from "svelte";
     import { ProjectStore } from "../../stores.js";
+    import OnTheSpot from "../../lib/image/onthespot.png";
+    import PTracker from "../../lib/image/product-tracker.png";
+    import Winforce from "../../lib/image/winforce.png";
+
 </script>
 
 <div class="grid grid-cols-8 md:grid-cols-9 gap-4 -mt-12 md:mt-12 space-y-4">
@@ -30,7 +35,14 @@
             <!-- Image -->
             <div
                 class="col-span-8 md:col-span-4 object-center object-fill hover:scale-105 transition duration-500 ease-in-out">
-                <img src={project.cover} alt="Project" />
+                <!-- <img src={project.cover} alt="Project" /> -->
+                {#if project.id === 1}
+                    <img src={OnTheSpot} alt="Project preview" />
+                {:else if project.id === 2}
+                    <img src={PTracker} alt="Project preview" />
+                {:else if project.id === 3}
+                    <img src={Winforce} alt="Project preview" />
+                {/if}
             </div>
 
             <!-- Text -->

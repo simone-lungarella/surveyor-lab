@@ -1,6 +1,7 @@
 <script>
     import Footer from "../Footer.svelte";
-    import Profile from "./img/profile.png";
+    import Profile from "../../lib/image/profile.png";
+
 </script>
 
 <div class="grid grid-cols-7 md:grid-cols-8 lg:grid-cols-10 gap-4 -mt-8 md:mt-20">
@@ -30,7 +31,7 @@
             endeavors, I make a point to absorb as much knowledge as possible
             while also having a good time.
         </p>
-
+        
         <h3 class="text-gray-200">My favourite technologies are:</h3>
         <ul class="text-gray-200">
             <li>Java & SpringBoot</li>

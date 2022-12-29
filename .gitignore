@@ -24,3 +24,4 @@ _output
 .eslintcache
 
 .svelte-kit
+/build

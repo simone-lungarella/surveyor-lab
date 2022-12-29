@@ -1,7 +1,6 @@
 <script>
     import "../app.css";
     import Header from "./Header.svelte";
-    export const prerender = true;
 
     let bodyStyle = "bg-gray-900 text-white p-4";
     const handleMenuToggle = (/** @type {{ detail: any; }} */ event) => {
