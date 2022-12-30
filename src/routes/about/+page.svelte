@@ -1,6 +1,6 @@
 <script>
     import Footer from "../Footer.svelte";
-    import Profile from "../../lib/image/profile.png";
+    import Profile from "/src/lib/image/profile.png";
 
 </script>
 

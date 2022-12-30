@@ -1,9 +1,8 @@
 <script>
-    import { onMount } from "svelte";
     import { ProjectStore } from "../../stores.js";
-    import OnTheSpot from "../../lib/image/onthespot.png";
-    import PTracker from "../../lib/image/product-tracker.png";
-    import Winforce from "../../lib/image/winforce.png";
+    import OnTheSpot from "/src/lib/image/onthespot.png";
+    import PTracker from "/src/lib/image/product-tracker.png";
+    import Winforce from "/src/lib/image/winforce.png";
 
 </script>
 
