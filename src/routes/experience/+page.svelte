@@ -5,7 +5,7 @@
 
 </script>
 
-<div class="grid grid-cols-8 md:grid-cols-9 gap-4 -mt-12 md:mt-20">
+<div class="grid grid-cols-8 md:grid-cols-9 gap-4 -mt-12 lg:mt-20">
     <div class="md:col-span-1" />
     <div class="prose col-span-8">
         <div class="flex gap-6 items-center">

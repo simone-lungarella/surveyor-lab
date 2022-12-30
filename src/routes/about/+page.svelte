@@ -4,7 +4,7 @@
 
 </script>
 
-<div class="grid grid-cols-7 md:grid-cols-8 lg:grid-cols-10 gap-4 -mt-8 md:mt-20">
+<div class="grid grid-cols-7 md:grid-cols-8 lg:grid-cols-9 gap-4 -mt-8 lg:mt-20">
     <div class="md:col-span-1" />
     <div class="prose col-span-7 lg:col-span-8">
         <div class="flex gap-6 items-center">
@@ -15,8 +15,6 @@
         </div>
     </div>
     <div class="md:col-span-1" />
-
-    <div class="lg:col-span-1" />
 
     <div class="text-column font-mono prose col-span-7 lg:col-span-4">
         <p class="text-gray-200">

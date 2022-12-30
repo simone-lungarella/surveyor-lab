@@ -85,6 +85,6 @@
 
 <style>
     .item {
-        @apply flex items-center px-3 py-2 text-xl font-mono gap-1;
+        @apply flex items-center px-3 py-2 text-xl md:text-sm lg:text-xl font-mono gap-1;
     }
 </style>
