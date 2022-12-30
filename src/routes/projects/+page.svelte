@@ -27,21 +27,20 @@
         <div class="md:col-span-1" />
 
         <div class="col-span-8 md:col-span-7 grid grid-flow-row place-content-center" >
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center lg:items-start">
-
-                <div class="hover:scale-105 transition duration-500 ease-in-out" >
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 lg:gap-16 items-center lg:items-start" >
+                <div class="overflow-hidden grayscale-[.7] hover:grayscale-0 transition duration-300 ease-in-out" >
                     {#if project.id === 1}
-                        <img src={OnTheSpot} alt="Project preview" />
+                        <img src={OnTheSpot} alt="Project preview" class="w-full h-full object-fill" />
                     {:else if project.id === 2}
-                        <img src={Winforce} alt="Project preview" />
+                        <img src={Winforce} alt="Project preview" class="w-full h-full object-fill" />
                     {:else if project.id === 3}
-                        <img src={PTracker} alt="Project preview" />
+                        <img src={PTracker} alt="Project preview" class="w-full h-full object-fill" />
                     {/if}
                 </div>
 
                 <div class="prose font-mono">
                     <span class="text-amber-300" >{project.techs.join(" - ")}</span >
-                    <p class="text-gray-400">{project.description}</p>
+                    <p class="text-gray-300">{project.description}</p>
                     <a class="text-white" href={project.page} >More about {project.title}</a >
                     <div class="grid grid-flow-col place-content-start gap-4 mt-5">
                         {#if project.github}
