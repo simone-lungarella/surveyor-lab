@@ -1,15 +1,12 @@
 <script>
     import { ProjectStore } from "../../stores.js";
-    import OnTheSpot from "/src/lib/image/onthespot.png";
-    import PTracker from "/src/lib/image/product-tracker.png";
-    import Winforce from "/src/lib/image/winforce.png";
 </script>
 
-<div class="grid grid-cols-8 md:grid-cols-9 gap-4 -mt-12 lg:mt-12 space-y-4">
+<div class="grid grid-cols-8 md:grid-cols-9 gap-4 -mt-20 lg:mt-20 space-y-4">
     <div class="md:col-span-1" />
 
     <div class="prose col-span-8">
-        <div class="flex gap-6 items-center">
+        <div class="hidden md:flex gap-6 items-center">
             <h2 class="text-white">
                 <span class="text-amber-300 font-mono">03. </span>Projects
             </h2>
@@ -21,7 +18,7 @@
         <div class="md:col-span-1" />
 
         <div class="col-span-8 md-col-span-7 prose font-mono">
-            <h2 class="text-white">{project.title}</h2>
+            <h2 class="text-white"><span class="text-amber-300 font-mono flex-inline md:hidden">0{project.id}.</span> {project.title}</h2>
         </div>
 
         <div class="md:col-span-1" />
@@ -29,13 +26,7 @@
         <div class="col-span-8 md:col-span-7 grid grid-flow-row place-content-center" >
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 lg:gap-16 items-center lg:items-start" >
                 <div class="overflow-hidden grayscale-[.7] hover:grayscale-0 transition duration-300 ease-in-out" >
-                    {#if project.id === 1}
-                        <img src={OnTheSpot} alt="Project preview" class="w-full h-full object-fill" />
-                    {:else if project.id === 2}
-                        <img src={Winforce} alt="Project preview" class="w-full h-full object-fill" />
-                    {:else if project.id === 3}
-                        <img src={PTracker} alt="Project preview" class="w-full h-full object-fill" />
-                    {/if}
+                    <img src={project.cover} alt="Project preview" class="w-full h-full object-fill" />
                 </div>
 
                 <div class="prose font-mono">
