@@ -1,4 +1,4 @@
-import{S as U,i as V,s as A,k as i,a as f,q as v,l,m as r,h as s,c as _,r as I,n as o,b as B,D as e,B as D}from"../../chunks/index-9e829466.js";function C(P){let t,u,x,a,c,y,w,d,E,b,p,k,H,m,S;return{c(){t=i("div"),u=i("div"),x=f(),a=i("main"),c=i("h3"),y=v("Hello, world! I'm"),w=f(),d=i("h1"),E=v("Simone Lungarella"),b=f(),p=i("h3"),k=v("software engineer"),H=f(),m=i("p"),S=v(`I am a web application specialist, proficient in both design and
+import{S as U,i as V,s as A,k as i,a as f,q as v,l,m as r,h as s,c as _,r as I,n as o,b as B,D as e,B as D}from"../../chunks/index-a4996c72.js";function C(P){let t,u,x,a,c,y,w,d,E,b,p,k,H,m,S;return{c(){t=i("div"),u=i("div"),x=f(),a=i("main"),c=i("h3"),y=v("Hello, world! I'm"),w=f(),d=i("h1"),E=v("Simone Lungarella"),b=f(),p=i("h3"),k=v("software engineer"),H=f(),m=i("p"),S=v(`I am a web application specialist, proficient in both design and
       development. In addition to my primary focus, I have a keen interest in
       game development and am currently working on a personal project utilizing
       Unreal Engine 4 and its visual scripting language to further cultivate
