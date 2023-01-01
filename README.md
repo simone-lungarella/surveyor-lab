@@ -1,7 +1,6 @@
 <h1 align="center"> Surveyor Lab </h1>
 <h3 align="center"> Personal web page, containing a summary of my career as a software engineer and a collection of my projects. </h3>
 
-
 <p align="center" >
   <img src="https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
