@@ -8,7 +8,7 @@
   <div class="md:col-span-1" />
   <section class="prose col-span-7">
     <div class="flex gap-6 items-center">
-      <h1 class="text-white">On The Spot!</h1>
+      <h1 class="text-white">{project.title}</h1>
       <div class="h-0.5 w-1/3 bg-gray-700 -mt-7" />
     </div>
     <span class="text-amber-300 font-mono">{project.techs.join(" - ")}</span>

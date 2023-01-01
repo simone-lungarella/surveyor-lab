@@ -2,7 +2,7 @@
   import { createEventDispatcher, onMount } from "svelte";
 
   let mobileMenuOpen = false;
-  let headerClasses = "bg-gray-900 fixed z-50 w-full top-0";
+  let headerClasses = "bg-gray-900 md:fixed z-50 w-full top-0";
 
   // Hide header on scroll down
   let prevScrollpos = 0;
@@ -10,15 +10,15 @@
     let currentScrollPos = window.pageYOffset;
     if (prevScrollpos > currentScrollPos) {
       headerClasses =
-        "bg-gray-900 fixed z-50 w-full top-0 shadow-2xl transition duration-500 ease-in-out transform translate-y-0";
+        "bg-gray-900 md:fixed z-50 w-full top-0 shadow-2xl transition duration-500 ease-in-out transform md:translate-y-0";
     } else {
       headerClasses =
-        "bg-gray-900 fixed z-50 w-full top-0 shadow-2xl transition duration-500 ease-in-out transform -translate-y-full";
+        "bg-gray-900 md:fixed z-50 w-full top-0 shadow-2xl transition duration-500 ease-in-out transform md:-translate-y-full";
     }
 
     // If is at top, remove shadow
     if (currentScrollPos === 0) {
-      headerClasses = "bg-gray-900 fixed z-50 w-full top-0";
+      headerClasses = "bg-gray-900 md:fixed z-50 w-full top-0";
     }
     prevScrollpos = currentScrollPos;
   };
