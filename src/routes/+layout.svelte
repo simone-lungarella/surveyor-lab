@@ -10,7 +10,14 @@
   };
 </script>
 
+<svelte:head>
+  <title>Surveyor Lab</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+</svelte:head>
+
 <Header on:menu-open={handleMenuToggle} />
+
 <body class={bodyStyle}>
   <slot />
 </body>

@@ -51,6 +51,7 @@ export const ProjectStore = writable([
     github: "https://github.com/StampedeStudios/OnTheSpot",
     website: "https://surveiior.itch.io/on-the-spot",
     page: "/projects/onthespot",
+    image: "/onthespot.png"
   },
   {
     id: 2,
@@ -60,6 +61,7 @@ export const ProjectStore = writable([
     techs: ["Spring Boot", "Java", "React", "Javascript", "MySQL"],
     website: "https://simone-lungarella.github.io/winforce",
     page: "/projects/winforce",
+    image: "/winforce.png"
   },
   {
     id: 3,
@@ -70,5 +72,6 @@ export const ProjectStore = writable([
     github: "https://github.com/simone-lungarella/product-tracker",
     website: "https://simone-lungarella.github.io/product-tracker",
     page: "/projects/product-tracker",
+    image: "/product-tracker.png"
   },
 ]);

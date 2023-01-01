@@ -1,8 +1,5 @@
 <script>
   import { ProjectStore } from "../../stores.js";
-  import OnTheSpot from "/src/lib/image/onthespot.png";
-  import PTracker from "/src/lib/image/product-tracker.png";
-  import Winforce from "/src/lib/image/winforce.png";
 </script>
 
 <div class="grid grid-cols-8 md:grid-cols-9 gap-4 -mt-20 lg:mt-20 space-y-4">
@@ -40,25 +37,11 @@
         <div
           class="overflow-hidden grayscale-[.7] hover:grayscale-0 transition duration-300 ease-in-out"
         >
-          {#if project.id === 1}
-            <img
-              src={OnTheSpot}
-              alt="Project preview"
-              class="w-full h-full object-fill"
-            />
-          {:else if project.id === 2}
-            <img
-              src={Winforce}
-              alt="Project preview"
-              class="w-full h-full object-fill"
-            />
-          {:else if project.id === 3}
-            <img
-              src={PTracker}
-              alt="Project preview"
-              class="w-full h-full object-fill"
-            />
-          {/if}
+          <img
+            src={project.image}
+            alt="Project preview"
+            class="w-full h-full object-fill"
+          />
         </div>
 
         <div class="prose font-mono">
