@@ -1,10 +1,14 @@
 <script>
+  import { slide } from "svelte/transition";
   import { ProjectStore } from "../../../stores.js";
 
   const project = $ProjectStore.filter((p) => p.id === 1)[0];
 </script>
 
-<div class="grid grid-cols-7 md:grid-cols-8 gap-4 -mt-8 lg:mt-20">
+<div
+  class="grid grid-cols-7 md:grid-cols-8 gap-4 -mt-8 lg:mt-20"
+  transition:slide={{ duration: 1000 }}
+>
   <div class="md:col-span-1" />
   <section class="prose col-span-7">
     <div class="flex gap-6 items-center">

@@ -1,10 +1,14 @@
 <script>
+  import { fade, slide } from "svelte/transition";
   import { WorkStore } from "../../stores.js";
 
   let selectedWorkplace = 0;
 </script>
 
-<div class="grid grid-cols-8 md:grid-cols-9 gap-4 -mt-12 lg:mt-20">
+<div
+  class="grid grid-cols-8 md:grid-cols-9 gap-4 -mt-12 lg:mt-20"
+  transition:slide={{ duration: 1000 }}
+>
   <div class="md:col-span-1" />
   <section class="prose col-span-8">
     <div class="hidden sm:flex gap-6 items-center">
@@ -54,7 +58,7 @@
 
     <ul class="text-gray-200">
       {#each $WorkStore[selectedWorkplace].topics as topic}
-        <li>{topic}</li>
+        <li transition:fade={{ duration: 700 }}>{topic}</li>
       {/each}
     </ul>
   </main>

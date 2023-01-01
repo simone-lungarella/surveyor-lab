@@ -1,8 +1,12 @@
 <script>
+  import { slide } from "svelte/transition";
   import { ProjectStore } from "../../stores.js";
 </script>
 
-<div class="grid grid-cols-8 md:grid-cols-9 gap-4 -mt-20 lg:mt-20 space-y-4">
+<div
+  class="grid grid-cols-8 md:grid-cols-9 gap-4 -mt-20 lg:mt-20 space-y-4"
+  transition:slide={{ duration: 1000 }}
+>
   <div class="md:col-span-1" />
 
   <section class="prose col-span-8">
