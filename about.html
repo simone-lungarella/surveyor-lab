@@ -5,16 +5,17 @@
     <link rel="icon" href="./favicon.png" />
     <meta name="viewport" content="width=device-width" />
     <meta http-equiv="content-security-policy" content="">
-		<link href="./_app/immutable/assets/_layout-24914cb4.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/start-78414256.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index-a4996c72.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons-c4096ae5.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index-bf1ee26c.js">
-		<link rel="modulepreload" href="./_app/immutable/components/pages/_layout.svelte-4e528447.js">
-		<link rel="modulepreload" href="./_app/immutable/components/pages/about/_page.svelte-6c33eb9b.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index-5a27102b.js">
-		<link rel="modulepreload" href="./_app/immutable/modules/pages/about/_page.js-94291217.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/_page-90a7f2f4.js"><title>Surveyor Lab</title><!-- HEAD_svelte-tsvhji_START --><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" type="image/png" href="/favicon.png"><!-- HEAD_svelte-tsvhji_END -->
+		<link href="./_app/immutable/assets/_layout.97c2aee3.css" rel="stylesheet">
+		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/entry/start.704d321f.mjs">
+		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/chunks/index.e09c6cec.mjs">
+		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/chunks/singletons.c0d62654.mjs">
+		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/chunks/index.56e9fa88.mjs">
+		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/entry/app.16e3406a.mjs">
+		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/entry/_layout.svelte.dec33b6f.mjs">
+		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/entry/about-page.svelte.09bc02b0.mjs">
+		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/chunks/index.05c71529.mjs">
+		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/entry/about-page.js.3dc38d36.mjs">
+		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/chunks/_page.fca24c55.mjs"><title>Surveyor Lab</title><!-- HEAD_svelte-tsvhji_START --><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" type="image/png" href="/favicon.png"><!-- HEAD_svelte-tsvhji_END -->
   </head>
   <body data-sveltekit-preload-data="hover">
     <div style="display: contents">
@@ -54,7 +55,7 @@
         <li>SvelteJS</li>
         <li>TailwindCSS</li>
         <li>Unreal Engine</li></ul></article>
-    <section class="col-span-7 lg:col-span-4 mt-10 lg:mt-0"><div class="grid place-content-center"><img src="/_app/immutable/assets/profile-7aadd0cd.png" alt="Simone Lungarella profile" class="bg-center p-4 w-96 hover:scale-110 transition duration-500 ease-in-out hover:ring-2 ring-amber-300"></div></section>
+    <section class="col-span-7 lg:col-span-4 mt-10 lg:mt-0"><div class="grid place-content-center"><img src="/_app/immutable/assets/profile.7aadd0cd.png" alt="Simone Lungarella profile" class="bg-center p-4 w-96 hover:scale-110 transition duration-500 ease-in-out hover:ring-2 ring-amber-300"></div></section>
     <div class="lg:col-span-1"></div></div>
 
   <div class="mt-10 grid grid-cols-7 place-content-center w-full"><div class="col-span-1"></div>
@@ -64,21 +65,30 @@
   <a class="hover:scale-105 hover:text-amber-300" href="https://www.linkedin.com/in/simone-lungarella"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a></footer></div></div></div></body>
 
 
-		<script type="module" data-sveltekit-hydrate="cunv06">
-			import { start } from "./_app/immutable/start-78414256.js";
+			
+			<script>
+				{
+					__sveltekit_xm8s0v = {
+						env: {},
+						assets: new URL(".", location.href).pathname.replace(/^\/$/, ''),
+						element: document.currentScript.parentElement
+					};
 
-			start({
-				env: {},
-				paths: {"base":"","assets":""},
-				target: document.querySelector('[data-sveltekit-hydrate="cunv06"]').parentNode,
-				version: "1677001939897",
-				hydrate: {
-					node_ids: [0, 3],
-					data: [null,null],
-					form: null
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.704d321f.mjs"),
+						import("./_app/immutable/entry/app.16e3406a.mjs")
+					]).then(([kit, app]) => {
+						kit.start(app, __sveltekit_xm8s0v.element, {
+							node_ids: [0, 3],
+							data,
+							form: null,
+							error: null
+						});
+					});
 				}
-			});
-		</script>
-	</div>
+			</script>
+		</div>
   </body>
 </html>
