@@ -55,13 +55,13 @@ export const ProjectStore = writable([
   },
   {
     id: 2,
-    title: "Winforce",
+    title: "Wind",
     description:
-      "A React application that allows a set of worksites to be managed and monitored.",
-    techs: ["Spring Boot", "Java", "React", "Javascript", "MySQL"],
-    website: "https://simone-lungarella.github.io/winforce",
-    page: "/projects/winforce",
-    image: "/winforce.png"
+      "A Svelte application that allows a set of worksites to be managed and monitored.",
+    techs: ["Spring Boot", "Java", "Svelte", "Javascript", "MySQL"],
+    website: "https://simone-lungarella.github.io/winforce2.0",
+    page: "/projects/wind",
+    image: "/wind.png"
   },
   {
     id: 3,

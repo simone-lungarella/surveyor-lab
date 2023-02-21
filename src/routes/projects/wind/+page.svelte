@@ -24,8 +24,9 @@
       <span class="text-amber-300">&bull; </span>Context
     </h3>
     <p class="text-gray-200">
-      This React app helps users manage construction sites. They can create,
-      update, and delete sites, and track progress by marking steps as complete.
+      This Svelte application helps users manage construction sites. They can
+      create, update, and delete sites, and track progress by marking steps as
+      complete.
     </p>
     <p class="text-gray-200">
       There are two types of users: Admins, who can create users and have full
