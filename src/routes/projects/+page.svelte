@@ -1,9 +1,6 @@
 <script>
   import { slide } from "svelte/transition";
   import { ProjectStore } from "../../stores.js";
-  import OnTheSpot from "/src/lib/image/onthespot.png";
-  import PTracker from "/src/lib/image/product-tracker.png";
-  import Wind from "/src/lib/image/wind.png";
 </script>
 
 <div
@@ -44,25 +41,11 @@
         <div
           class="overflow-hidden grayscale-[.7] hover:grayscale-0 transition duration-300 ease-in-out"
         >
-          {#if project.id === 1}
-            <img
-              src={OnTheSpot}
-              alt="Project preview"
-              class="w-full h-full object-fill border p-2"
-            />
-          {:else if project.id === 2}
-            <img
-              src={Wind}
-              alt="Project preview"
-              class="w-full h-full object-fill border p-2"
-            />
-          {:else if project.id === 3}
-            <img
-              src={PTracker}
-              alt="Project preview"
-              class="w-full h-full object-fill border p-2"
-            />
-          {/if}
+          <img
+            src={project.image}
+            alt="Project preview"
+            class="w-full h-full object-fill"
+          />
         </div>
 
         <div class="prose font-mono">
