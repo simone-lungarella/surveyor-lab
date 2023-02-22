@@ -52,10 +52,10 @@
       <span class="text-amber-300">&bull; </span>Frontend
     </h3>
     <p class="text-gray-200">
-      The frontend is a React application responsive and mobile friendly. It is
+      The frontend is a Svelte application responsive and mobile friendly. It is
       deployed on a <a href={project.website} class="text-amber-300"
         >Github Pages</a
-      >. Is built with material-ui and offer a way to access and interact with
+      >. Is built with TailwindCSS and offer a way to access and interact with
       each of the construction sites. Every profile created can have a
       fine-grain access to the sites with the possibility to interact only wwith
       a part of steps of each site.

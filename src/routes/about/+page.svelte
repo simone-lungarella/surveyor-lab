@@ -1,6 +1,5 @@
 <script>
-  import { fade, draw, slide } from "svelte/transition";
-  import Footer from "../Footer.svelte";
+  import { slide } from "svelte/transition";
   import Profile from "/src/lib/image/profile.png";
 </script>
 
@@ -51,14 +50,5 @@
       </div>
     </section>
     <div class="lg:col-span-1" />
-  </div>
-
-  <div class="mt-10 grid grid-cols-7 place-content-center w-full">
-    <div class="col-span-1" />
-    <div class="h-0.5 bg-gray-700 mb-5 shadow-lg col-span-5" />
-    <div class="col-span-1" />
-    <div class="col-span-7">
-      <Footer />
-    </div>
   </div>
 </div>
