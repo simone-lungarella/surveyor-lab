@@ -42,25 +42,25 @@
         class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 lg:gap-16 items-center lg:items-start"
       >
         <div
-          class="overflow-hidden grayscale-[.7] hover:grayscale-0 transition duration-300 ease-in-out"
+          class="overflow-hidden grayscale-[.7] hover:grayscale-0 rounded shadow-xl ring-2 transition duration-300 ease-in-out"
         >
           {#if project.id === 1}
             <img
               src={OnTheSpot}
               alt="Project preview"
-              class="w-full h-full object-fill border p-2"
+              class="w-full h-full object-fill"
             />
           {:else if project.id === 2}
             <img
               src={Wind}
               alt="Project preview"
-              class="w-full h-full object-fill border p-2"
+              class="w-full h-full object-fill"
             />
           {:else if project.id === 3}
             <img
               src={PTracker}
               alt="Project preview"
-              class="w-full h-full object-fill border p-2"
+              class="w-full h-full object-fill"
             />
           {/if}
         </div>

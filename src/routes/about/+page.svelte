@@ -3,9 +3,10 @@
   import Profile from "/src/lib/image/profile.png";
 </script>
 
-<div transition:slide={{ duration: 1000 }}>
+<div>
   <div
     class="grid grid-cols-7 md:grid-cols-8 lg:grid-cols-9 gap-4 -mt-8 lg:mt-20"
+    transition:slide={{ duration: 1000 }}
   >
     <div class="md:col-span-1" />
     <section class="prose col-span-7 lg:col-span-8">
@@ -45,7 +46,7 @@
         <img
           src={Profile}
           alt="Simone Lungarella profile"
-          class="bg-center p-4 w-96 hover:scale-110 transition duration-500 ease-in-out hover:ring-2 ring-amber-300"
+          class="bg-center p-4 w-96 hover:scale-110 transition duration-500 ease-in-out hover:ring-2 ring-gray-700"
         />
       </div>
     </section>
