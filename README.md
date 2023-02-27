@@ -12,5 +12,3 @@
 A simple web application built with <i>Svelte</i> and <i>Tailwind CSS</i>.
 
 The application is a simple web page that contains a summary of my career as a software engineer and a collection of my projects with a deep dive on each project.
-
-<p align="center" > Inspired by <a href="https://github.com/bchiang7/v4"> brittanychiang.com - v4 </a> </p>
