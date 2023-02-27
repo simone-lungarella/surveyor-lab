@@ -1,5 +1,4 @@
-<h1 align="center"> Surveyor Lab </h1>
-<h3 align="center"> Personal web page, containing a summary of my career as a software engineer and a collection of my projects. </h3>
+# Surveyor Lab
 
 <p align="center" >
   <img src="https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00" />
@@ -9,6 +8,32 @@
 
 ---
 
-A simple web application built with <i>Svelte</i> and <i>Tailwind CSS</i>.
+### About
+A simple web application built with <i>Svelte</i> and <i>Tailwind CSS</i> that contains a summary of my career as a software engineer and a collection of my personal projects with a deep dive into each project.
 
-The application is a simple web page that contains a summary of my career as a software engineer and a collection of my projects with a deep dive on each project.
+Projects follow my interests and offer a showcase of my skills and knowledge in different areas of software development. Many aspects are not covered in depth, but I hope to provide a good overview of my work.
+
+### Features
+- [x] Responsive design
+- [x] Smooth scrolling
+- [x] Smooth transitions
+
+### To do
+- [-] Dark mode
+- [-] SEO friendly
+- [-] Accessibility friendly
+
+### Installation
+1. Clone the repository
+2. Install dependencies
+```bash
+npm install
+```
+3. Run the application
+```bash
+npm run dev
+```
+4. Open the application in your browser
+```bash
+http://localhost:5173
+```
