@@ -20,7 +20,6 @@ Projects follow my interests and offer a showcase of my skills and knowledge in 
 
 ### To do
 - [-] Dark mode
-- [-] SEO friendly
 - [-] Accessibility friendly
 
 ### Installation
