@@ -19,8 +19,8 @@ Projects follow my interests and offer a showcase of my skills and knowledge in 
 - [x] Smooth transitions
 
 ### To do
-- [-] Dark mode
-- [-] Accessibility friendly
+- [ ] Dark mode
+- [ ] Accessibility friendly
 
 ### Installation
 1. Clone the repository
