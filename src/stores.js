@@ -50,7 +50,7 @@ export const ProjectStore = writable([
     techs: ["Unreal Engine 5", "Blender", "C++", "Adobe Illustrator"],
     github: "https://github.com/StampedeStudios/OnTheSpot",
     website: "https://surveiior.itch.io/on-the-spot",
-    page: "/projects/onthespot",
+    page: "./projects/onthespot",
     image: "/onthespot.png"
   },
   {
@@ -60,7 +60,7 @@ export const ProjectStore = writable([
       "A Svelte application that allows a set of worksites to be managed and monitored.",
     techs: ["Spring Boot", "Java", "Svelte", "Javascript", "MySQL"],
     website: "https://simone-lungarella.github.io/winforce2.0",
-    page: "/projects/wind",
+    page: "./projects/wind",
     image: "/wind.png"
   },
   {
@@ -71,7 +71,7 @@ export const ProjectStore = writable([
     techs: ["Spring Boot", "Java", "React", "Javascript"],
     github: "https://github.com/simone-lungarella/product-tracker",
     website: "https://simone-lungarella.github.io/product-tracker",
-    page: "/projects/product-tracker",
+    page: "./projects/product-tracker",
     image: "/product-tracker.png"
   },
 ]);

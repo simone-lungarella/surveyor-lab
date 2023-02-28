@@ -47,13 +47,13 @@
         <li>
           <div class="item">
             <p class="text-amber-300">01.</p>
-            <a href="/about" class="text-white hover:text-amber-300">About</a>
+            <a href="./about" class="text-white hover:text-amber-300">About</a>
           </div>
         </li>
         <li>
           <div class="item">
             <p class="text-amber-300">02.</p>
-            <a href="/experience" class="text-white hover:text-amber-300"
+            <a href="./experience" class="text-white hover:text-amber-300"
               >Experience</a
             >
           </div>
@@ -61,7 +61,7 @@
         <li>
           <div class="item">
             <p class="text-amber-300">03.</p>
-            <a href="/projects" class="text-white hover:text-amber-300"
+            <a href="./projects" class="text-white hover:text-amber-300"
               >Projects</a
             >
           </div>
@@ -121,7 +121,7 @@
             <div class="item">
               <p class="text-amber-300">01.</p>
               <a
-                href="/about"
+                href="./about"
                 class="text-white hover:text-amber-300"
                 on:click={handleMobileMenuClose}>About</a
               >
@@ -131,7 +131,7 @@
             <div class="item">
               <p class="text-amber-300">02.</p>
               <a
-                href="/experience"
+                href="./experience"
                 class="text-white hover:text-amber-300"
                 on:click={handleMobileMenuClose}>Experience</a
               >
@@ -141,7 +141,7 @@
             <div class="item">
               <p class="text-amber-300">03.</p>
               <a
-                href="/projects"
+                href="./projects"
                 class="text-white hover:text-amber-300"
                 on:click={handleMobileMenuClose}>Projects</a
               >
