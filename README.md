@@ -21,18 +21,3 @@ Projects follow my interests and offer a showcase of my skills and knowledge in 
 ### To do
 - [ ] Dark mode
 - [ ] Accessibility friendly
-
-### Installation
-1. Clone the repository
-2. Install dependencies
-```bash
-npm install
-```
-3. Run the application
-```bash
-npm run dev
-```
-4. Open the application in your browser
-```bash
-http://localhost:5173
-```
