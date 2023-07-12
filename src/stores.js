@@ -74,4 +74,15 @@ export const ProjectStore = writable([
     page: "/projects/product-tracker",
     image: "/product-tracker.png"
   },
+  {
+    id: 4,
+    title: "Star Knight",
+    description:
+      "Top-down spaceship shooter game inspired by Space Invaders and made with Unity Engine",
+    techs: ["Unity", "C#", "Aseprite"],
+    github: "https://github.com/StampedeStudios/StarKnight",
+    website: "https://surveiior.itch.io/starknight",
+    page: "/projects/starknight",
+    image: "/starknight.png"
+  },
 ]);
