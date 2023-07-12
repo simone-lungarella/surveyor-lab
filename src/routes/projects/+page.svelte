@@ -3,6 +3,7 @@
   import { ProjectStore } from "../../stores.js";
   import OnTheSpot from "/src/lib/image/onthespot.png";
   import PTracker from "/src/lib/image/product-tracker.png";
+  import StarKnight from "/src/lib/image/starknight.png";
   import Wind from "/src/lib/image/wind.png";
 </script>
 
@@ -59,6 +60,12 @@
           {:else if project.id === 3}
             <img
               src={PTracker}
+              alt="Project preview"
+              class="w-full h-full object-fill"
+            />
+          {:else if project.id === 4}
+            <img
+              src={StarKnight}
               alt="Project preview"
               class="w-full h-full object-fill"
             />
